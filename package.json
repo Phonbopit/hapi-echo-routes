@@ -1,0 +1,25 @@
+{
+  "name": "hapi-echo-routes",
+  "version": "1.0.0",
+  "description": "Display all routes inspired by Ruby on Rails",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node ./test/*.js | tap-spec",
+    "release": "np"
+  },
+  "repository": "git@github.com:Phonbopit/hapi-echo-routes.git",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "routes"
+  ],
+  "author": "Chai Phonbopit <phonbopit@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hapi": "^17.4.0",
+    "tape": "^4.9.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1"
+  }
+}
