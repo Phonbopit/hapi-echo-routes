@@ -1,4 +1,5 @@
-# hapi-echo-routes
+# hapi-echo-routes [![Build Status](https://semaphoreci.com/api/v1/phonbopit/hapi-echo-routes/branches/master/badge.svg)](https://semaphoreci.com/phonbopit/hapi-echo-routes)
+
 :loudspeaker: Display all routes inspired by `rake routes` of Ruby on Rails
 
 ## Usage
