@@ -19,15 +19,15 @@ server.route({
 
 server.route({
 	method: 'POST',
-	path: '/api/route2',
-	handler: (req, h) => 'success'
+	path: '/api/route3',
+	handler: (req, h) => 'route 3'
 })
 
 server.register(echoRoutes)
 
 const e = `GET\t/api/route1
 GET\t/api/route2
-POST\t/api/route2`
+POST\t/api/route3`
 
 test('Display all routes', t => {
 	t.plan(1)
