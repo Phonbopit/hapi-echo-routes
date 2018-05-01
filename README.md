@@ -6,10 +6,10 @@
 Install dependencies
 
 ```
-npm install @phonbopit/hapi-echo-routes
+npm install hapi-echo-routes
 
 # with yarn
-yarn add @phonbopit/hapi-echo-routes
+yarn add hapi-echo-routes
 ```
 
 Register plugin
@@ -18,7 +18,7 @@ Register plugin
 const Hapi = require('hapi')
 const server = Hapi.server({ port: 5555 })
 
-+ const echoRoutes = require('@phonbopit/hapi-echo-routes')
++ const echoRoutes = require('hapi-echo-routes')
 + server.register(echoRoutes)
 ```
 
