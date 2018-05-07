@@ -16,11 +16,10 @@
   "author": "Chai Phonbopit <phonbopit@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^2.4.1",
-    "hapi": "^17.4.0",
-    "tape": "^4.9.0"
+    "chalk": "2.4.1"
   },
   "devDependencies": {
-    "tap-spec": "^4.1.1"
+    "tape": "4.9.0",
+    "tap-spec": "4.1.1"
   }
 }
