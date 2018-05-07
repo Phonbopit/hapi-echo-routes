@@ -1,6 +1,6 @@
 {
   "name": "hapi-echo-routes",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Display all routes inspired by Ruby on Rails",
   "main": "lib/index.js",
   "scripts": {
